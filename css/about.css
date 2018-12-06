@@ -1,0 +1,21 @@
+
+.column {
+	float: left;
+    padding: 10px;
+}
+
+.left {
+	width: 33%;
+}
+
+.right {
+	width: 62%;
+	margin-top: -1.2em;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+

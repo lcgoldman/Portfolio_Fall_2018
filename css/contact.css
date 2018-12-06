@@ -1,0 +1,159 @@
+#contactform {
+	border: solid black;
+	margin: auto;
+}
+fieldset{
+	width: 45%;
+	height: 28em;
+	background-color: rgba(20,118,43,0.85);
+	color: white;
+	font-size: 1em;
+	border-radius: 1em;
+	box-shadow: 0.3em 0.3em rgb(33,33,33);
+	margin: 0 auto;
+}
+legend {
+	color: black;
+	background-color: white;
+	width: 35%;
+	height: 2em;
+	font-size: 1.5em;
+	text-align: center;
+	border-radius: 0.5em;
+	border: solid red;
+	padding-top: 0.5em;
+}
+#field {
+	width: 40em;
+	font-size: 1em;
+}
+#field:focus {
+    background-color: yellow;
+	border: 3px solid yellow;
+}
+
+button {
+	background-color: red;
+	box-shadow: 0.1em 0.1em rgb(33,33,33);
+	font-size: 2em;
+	color: white;
+//	margin-left: 1.2em;
+}
+//button:hover {
+//	background-color: white;
+//	color: red;
+//	font-weight: bolder;
+//}
+
+
+.header {
+width:100%;
+    height: 3em;
+    background-color: #363636;
+    text-align: center;
+    padding: 1em;
+	color: white;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #363636;
+    margin: auto;
+	text-align: center;
+    padding: 1em;
+    width:100%;
+}
+
+.topnav a {
+    float: left;
+	margin: auto;
+    display: block;
+    color: black;
+    font-size: 20px;
+    padding: 8px 12px;
+    text-decoration: none;
+    margin: auto;
+}
+
+.topnav a:hover {
+    background-color: #F5F5F5;
+    color: #185992;
+    font-size: 20px;
+}
+.header
+{
+	width: 100%;
+	height: 5em;
+	background-color: rgb(54,54,54);
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+}
+.header a {
+	color: yellow;
+	text-decoration: none;
+}
+.footer {
+	color: #fff;
+	background-color: #363636;
+	text-align: center;
+	width: 100%
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+/* Contact Me */
+
+.containerForForm body { font-family: Arial, Helvetica, sans-serif; }
+
+.containerForForm input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.containerForForm button[type=submit] {
+    background-color: #4CAF50;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.containerForForm button[type=submit]:hover {
+    background-color: grey;
+    color: #185992;
+    font-size: 20px;
+}
+
+.containerForForm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
